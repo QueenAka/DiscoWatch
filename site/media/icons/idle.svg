@@ -1,0 +1,25 @@
+<svg
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="15.00053"
+  height="15.99981"
+  viewBox="0,0,15.00053,15.99981">
+  <g transform="translate(-232,-172.0002)">
+    <g
+      data-paper-data='{"isPaintingLayer":true}'
+      fill="#feff4a"
+      fill-rule="nonzero"
+      stroke="none"
+      stroke-width="1"
+      stroke-linecap="butt"
+      stroke-linejoin="miter"
+      stroke-miterlimit="10"
+      stroke-dasharray=""
+      stroke-dashoffset="0"
+      style="mix-blend-mode: normal">
+      <path
+        d="M238,172.278c0.19919,0.24291 0.23085,0.58246 0.08,0.858c-0.57846,1.06135 -0.88041,2.25125 -0.878,3.46c0,4.021 3.278,7.277 7.318,7.277c0.528,-0.00067 1.039,-0.054 1.533,-0.16c0.30889,-0.06608 0.62746,0.0582 0.81,0.316c0.19433,0.26997 0.18158,0.63716 -0.031,0.893c-1.58851,1.95106 -3.97206,3.08185 -6.488,3.078c-4.61,0 -8.344,-3.714 -8.344,-8.29c0,-3.444 2.114,-6.398 5.124,-7.65c0.30794,-0.13087 0.66532,-0.04193 0.876,0.218" />
+    </g>
+  </g>
+</svg>

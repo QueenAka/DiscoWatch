@@ -1,0 +1,164 @@
+:root {
+  --background: #0c1015;
+  --lighter: rgba(255, 255, 255, 0.5);
+  --darker: rgba(0, 0, 0, 0.5);
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  user-select: none;
+}
+
+html::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+    linear-gradient(
+      90deg,
+      rgba(255, 0, 0, 0.06),
+      rgba(0, 255, 0, 0.02),
+      rgba(0, 0, 255, 0.06)
+    );
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+}
+
+.card {
+  background: var(--background);
+  min-width: 280px;
+  width: 100%;
+  max-width: 500px;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-family: sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#pfp {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+.name {
+  position: absolute;
+  top: 10px;
+  left: 95px;
+  width: calc(100% - 105px);
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#bio {
+  width: 100%;
+  margin: 5px 0;
+}
+
+#dname {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#status {
+  font-size: 16px;
+}
+
+.act {
+  width: 100%;
+  height: 60px;
+  position: relative;
+  margin: 5px 0;
+}
+
+.act img {
+  width: 60px;
+  border-radius: 5px;
+}
+
+.act .act-shit {
+  height: 60px;
+  width: calc(100% - 65px);
+  position: absolute;
+  top: 0;
+  left: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.act .act-name {
+  font-size: 15px;
+}
+
+.act .act-details {
+  font-size: 13px;
+  color: var(--lighter);
+}
+
+.act .act-state {
+  font-size: 13px;
+  color: var(--lighter);
+}
+
+.icons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons a {
+  text-decoration: none;
+  margin: 0 10px;
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+
+.icons a img {
+  width: 40px;
+  height: 40px;
+}
+
+.icons a:active {
+  transform: scale(0.9);
+  transition: all 0.1s ease-in-out;
+}
+
+awid {
+  display: none;
+}
+
+#image {
+  position: relative;
+  padding-right: calc(100% - 75px);
+  height: 75px;
+  width: 75px;
+}
+
+.status-icon {
+  position: absolute;
+  top: 52px;
+  left: 52px;
+  width: 20px;
+  height: 20px;
+  background-color: var(--background);
+  padding: 3px;
+  border-radius: 50%;
+}
